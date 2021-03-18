@@ -1,0 +1,33 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you","Hey", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Hey, this is DigiBot","Good to see you again!", "Hi there, how can I help?","DigiBot to assist you"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later","Hope to see you soon", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "Owner",
+         "patterns": ["I want to sell a property", "I need a new tenant", "I want to change my tenant", "I want a new buyer", "Rent agreement", "Price for my apartment"],
+         "responses": ["You're on right track", "I'll help you with that", "Let me connect you to our executive"],
+         "context_set": ""
+        },
+        {"tag": "Buyer",
+         "patterns": ["I want a new apartment", "I want a new flat", "Connect me with seller", "Connect me with owner", "property rate"],
+         "responses": ["You're at a right place", "Please let me help you", "I'll connect you with an executive"],
+         "context_set": ""
+        },
+        {"tag": "Tenant",
+         "patterns": ["Id like to rent a new place", "whats the rent of new apartment", "what do you reccommend?", "could i get something interesting"],
+         "responses": ["We help you with your query", "Please let me assist you"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 9am-6pm all week, except Mondays"],
+         "context_set": ""
+        }
+   ]
+}
